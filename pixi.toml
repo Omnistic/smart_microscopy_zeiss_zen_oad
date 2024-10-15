@@ -1,0 +1,13 @@
+[project]
+name = "smart_microscopy_zeiss_zen_oad"
+version = "0.1.0"
+description = "Add a short description here"
+authors = ["The user <user@email.com>"]
+channels = ["conda-forge"]
+platforms = ["linux-64", "osx-arm64", "osx-64", "win-64"]
+
+[tasks]
+start = "jupyter lab"
+
+[dependencies]
+jupyterlab = ">=4.2.5,<5"
